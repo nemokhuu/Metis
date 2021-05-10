@@ -1,0 +1,29 @@
+{
+  "name": "Pallas",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edward-dunton/Pallas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/edward-dunton/Pallas/issues"
+  },
+  "homepage": "https://github.com/edward-dunton/Pallas#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "crypto": "^1.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "js-sha1": "^0.6.0",
+    "react-frontend": "file:react-frontend",
+    "sqlite3": "^5.0.1"
+  }
+}

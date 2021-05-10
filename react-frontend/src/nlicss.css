@@ -1,0 +1,56 @@
+/*
+Colors!!
+c4b6b6
+7e7474
+555555
+ */
+
+.notloggedin{
+    margin:30px;
+}
+
+.section:nth-child(even) {
+    flex-direction:row-reverse;
+}
+
+.section:nth-child(even) {
+    flex-direction:row-reverse;
+}
+
+.section:nth-child(1) {
+    border-radius:40px 40px 0px 0px;
+}
+
+.section:nth-last-child(1) {
+    border-radius:0px 0px 40px 40px;
+}
+
+.section{
+    display:flex;
+    justify-content:space-evenly;
+    padding:40px;
+    min-height:400px;
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    color:#FFFFFF;
+    width:50%;
+}
+
+.title {
+    display:flex;
+    font-size:4.5vh;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: bold;
+    justify-content:space-evenly;
+    text-align:center;
+    align-items:center;
+}
+
+.content {
+    font-family: "Alegreya Sans";
+    font-size: 3vh;
+}
